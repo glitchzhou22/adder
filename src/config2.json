@@ -1,0 +1,21 @@
+{
+    "name": "traffic_light",
+    "description": "A simple 2-bit traffic light controller",
+    "inputs": [
+        "clk",
+        "rst"
+    ],
+    "outputs": [
+        "light[1:0]"
+    ],
+    "pins": {
+        "clk": "input",
+        "rst": "input",
+        "light[1:0]": "output"
+    },
+    "clock": "clk",
+    "project_url": "https://example.com/your-project-url",
+    "author": "Your Name Here",
+    "github_user": "your-github-username",
+    "top_module": "top_module"
+}
